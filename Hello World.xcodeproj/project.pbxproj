@@ -6,12 +6,13 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
+/* Begin PBXBuildFile section   */
 		6A7B0B951BFE6D0000C1F940 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7B0B941BFE6D0000C1F940 /* AppDelegate.swift */; };
 		6A7B0B971BFE6D0000C1F940 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7B0B961BFE6D0000C1F940 /* ViewController.swift */; };
 		6A7B0B9A1BFE6D0000C1F940 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A7B0B981BFE6D0000C1F940 /* Main.storyboard */; };
-		6A7B0B9C1BFE6D0000C1F940 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A7B0B9B1BFE6D0000C1F940 /* Assets.xcassets */; };
 		6A7B0B9F1BFE6D0000C1F940 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A7B0B9D1BFE6D0000C1F940 /* LaunchScreen.storyboard */; };
+		6A7B0BAA1BFE77D600C1F940 /* man-silhouette-hi.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7B0BA81BFE77D600C1F940 /* man-silhouette-hi.png */; };
+		6A7B0BAB1BFE77D600C1F940 /* cat_silhouette.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7B0BA91BFE77D600C1F940 /* cat_silhouette.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,9 +20,10 @@
 		6A7B0B941BFE6D0000C1F940 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A7B0B961BFE6D0000C1F940 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6A7B0B991BFE6D0000C1F940 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6A7B0B9B1BFE6D0000C1F940 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A7B0B9E1BFE6D0000C1F940 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A7B0BA01BFE6D0000C1F940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A7B0BA81BFE77D600C1F940 /* man-silhouette-hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "man-silhouette-hi.png"; sourceTree = "<group>"; };
+		6A7B0BA91BFE77D600C1F940 /* cat_silhouette.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat_silhouette.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		6A7B0B931BFE6D0000C1F940 /* Hello World */ = {
 			isa = PBXGroup;
 			children = (
+				6A7B0BAC1BFE840A00C1F940 /* Images */,
 				6A7B0B941BFE6D0000C1F940 /* AppDelegate.swift */,
 				6A7B0B961BFE6D0000C1F940 /* ViewController.swift */,
 				6A7B0B981BFE6D0000C1F940 /* Main.storyboard */,
-				6A7B0B9B1BFE6D0000C1F940 /* Assets.xcassets */,
 				6A7B0B9D1BFE6D0000C1F940 /* LaunchScreen.storyboard */,
 				6A7B0BA01BFE6D0000C1F940 /* Info.plist */,
 			);
 			path = "Hello World";
+			sourceTree = "<group>";
+		};
+		6A7B0BAC1BFE840A00C1F940 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6A7B0BA91BFE77D600C1F940 /* cat_silhouette.png */,
+				6A7B0BA81BFE77D600C1F940 /* man-silhouette-hi.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +107,7 @@
 				TargetAttributes = {
 					6A7B0B901BFE6D0000C1F940 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = Y2L23X5AWY;
 					};
 				};
 			};
@@ -123,8 +135,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A7B0B9F1BFE6D0000C1F940 /* LaunchScreen.storyboard in Resources */,
-				6A7B0B9C1BFE6D0000C1F940 /* Assets.xcassets in Resources */,
+				6A7B0BAA1BFE77D600C1F940 /* man-silhouette-hi.png in Resources */,
 				6A7B0B9A1BFE6D0000C1F940 /* Main.storyboard in Resources */,
+				6A7B0BAB1BFE77D600C1F940 /* cat_silhouette.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,10 +260,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Hello World/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kbo.Hello-World";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -258,10 +275,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Hello World/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kbo.Hello-World";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -284,6 +305,7 @@
 				6A7B0BA51BFE6D0000C1F940 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

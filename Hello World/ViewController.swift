@@ -10,6 +10,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var yearsHuman: UITextField!
+    
+    @IBOutlet weak var yearsKitty: UITextField!
+    
+    @IBAction func convertButton(sender: AnyObject) {
+        
+        let getAgeKitty = Int(yearsHuman.text!)
+        
+        let setAgeKitty = getAgeKitty! * 7
+        
+        yearsKitty.text = "\(setAgeKitty)"
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
